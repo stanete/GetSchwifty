@@ -1,6 +1,6 @@
 # schwiftyandroid 😏
 
-**DISCLAIMER: This repo is currently under an exploratory construction. Please don't take very seriously what you see here**
+**DISCLAIMER: This repo is currently under an exploratory construction. Please don't take very seriously what you see here. I'll make an official anouncement when everything is production ready.**
 
 An android app written in Kotlin where I test ideas, architectures, patterns and do some experiments.
 
