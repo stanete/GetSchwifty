@@ -30,6 +30,8 @@ ext {
   koin_version = '0.9.3'
   moshi_version = '1.6.0'
   paging_version = "1.0.0"
+  retrofit_version = "2.4.0"
+  okhttp_version = '3.10.0'
 }
 
 dependencies {
@@ -41,9 +43,9 @@ dependencies {
   implementation "org.koin:koin-android-architecture:$koin_version"
 
   // Type-safe HTTP client.
-  implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-  implementation "com.squareup.okhttp3:logging-interceptor:3.10.0"
-  implementation 'com.squareup.retrofit2:converter-moshi:2.3.0'
+  implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+  implementation "com.squareup.retrofit2:converter-moshi:$retrofit_version"
+  implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
 
   // JSON - Kotlin parser.
   implementation "com.squareup.moshi:moshi:$moshi_version"
@@ -58,7 +60,12 @@ dependencies {
   implementation 'com.android.support:recyclerview-v7:27.1.1'
   implementation 'com.facebook.fresco:fresco:1.9.0'
   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:0.22.2"
-  testImplementation 'junit:junit:4.12'
+
+  // Testing.
+  testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+  testImplementation 'commons-io:commons-io:2.6'
+  testImplementation "com.squareup.okhttp3:mockwebserver:$okhttp_version"
   androidTestImplementation 'com.android.support.test:runner:1.0.2'
   androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+  testImplementation 'org.testng:testng:6.9.6'
 }
