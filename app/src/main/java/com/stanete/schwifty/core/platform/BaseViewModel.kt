@@ -1,7 +1,8 @@
-package com.stanete.schwifty.core
+package com.stanete.schwifty.core.platform
 
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
+import com.stanete.schwifty.core.Failure
 import kotlinx.coroutines.experimental.Job
 
 abstract class BaseViewModel : ViewModel() {

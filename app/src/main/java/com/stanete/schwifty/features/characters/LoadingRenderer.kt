@@ -1,8 +1,7 @@
-package com.stanete.schwifty.features.characters.renderers
+package com.stanete.schwifty.features.characters
 
 import com.stanete.schwifty.R
 import com.stanete.schwifty.core.renderer.Renderer
-import com.stanete.schwifty.features.characters.CharactersViewModel
 
 class LoadingRenderer(private val viewModel: CharactersViewModel) : Renderer<LoadingRenderable>() {
 

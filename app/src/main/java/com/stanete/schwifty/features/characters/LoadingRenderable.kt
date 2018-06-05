@@ -1,4 +1,4 @@
-package com.stanete.schwifty.features.characters.renderers
+package com.stanete.schwifty.features.characters
 
 import com.stanete.schwifty.core.renderer.Renderable
 

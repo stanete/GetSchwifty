@@ -6,11 +6,12 @@ import com.stanete.schwifty.core.Failure.NetworkFailure
 import com.stanete.schwifty.core.Failure.ServerFailure
 import com.stanete.schwifty.core.Left
 import com.stanete.schwifty.core.Right
+import com.stanete.schwifty.core.entity.Characters
 import java.io.IOException
 
 class CharactersRepository(private val service: CharactersService) {
 
-  fun getCharacters(page: Int = 0): Either<Failure, Characters> = try {
+  fun getCharacters(page: Int = 1): Either<Failure, Characters> = try {
 
     val call = service.getCharacters(page)
     val response = call.execute()

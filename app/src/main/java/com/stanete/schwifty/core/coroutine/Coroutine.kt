@@ -1,7 +1,8 @@
-package com.stanete.schwifty.core
+package com.stanete.schwifty.core.coroutine
 
-import com.stanete.schwifty.core.CoroutineContext.IO
-import com.stanete.schwifty.core.CoroutineContext.MAIN
+import com.stanete.schwifty.core.coroutine.CoroutineContext.IO
+import com.stanete.schwifty.core.coroutine.CoroutineContext.MAIN
+import com.stanete.schwifty.core.platform.BaseViewModel
 import kotlinx.coroutines.experimental.CommonPool
 import kotlinx.coroutines.experimental.CoroutineScope
 import kotlinx.coroutines.experimental.Deferred
