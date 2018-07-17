@@ -9,3 +9,7 @@ fun View.visible() {
 fun View.invisible() {
   this.visibility = View.GONE
 }
+
+infix fun View.onClick(block: (View) -> Unit) {
+  this.setOnClickListener { block(it) }
+}

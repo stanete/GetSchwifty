@@ -10,8 +10,8 @@ import retrofit2.http.Query
 interface CharactersService {
 
   @GET("characters")
-  fun getCharacters(@Query("page") page: Int = 0): Call<Characters>
+  fun getCharacters(@Query("page") page: Int = 1): Call<Characters>
 
   @GET("characters/{id}")
-  fun getCharacter(@Path("id") id: String): Call<Character>
+  fun getCharacter(@Path("id") id: Int): Call<Character>
 }

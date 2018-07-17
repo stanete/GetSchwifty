@@ -1,11 +1,28 @@
 <resources>
 
   <!-- Base application theme. -->
-  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <!-- Customize your theme here. -->
-    <item name="colorPrimary">@color/colorPrimary</item>
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <item name="colorAccent">@color/colorAccent</item>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/primaryColor</item>
+    <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+    <item name="colorAccent">@color/secondaryColor</item>
+    <item name="android:windowBackground">@color/primaryLightColor</item>
+  </style>
+
+
+  <style name="TextView"/>
+
+  <style name="TextView.Label">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/primaryTextColor</item>
+    <item name="android:textSize">@dimen/textSize_large</item>
+  </style>
+
+  <style name="SimpleDraweeView"/>
+
+  <style name="SimpleDraweeView.Circle">
+    <item name="android:layout_width">@dimen/space_15x</item>
+    <item name="android:layout_height">@dimen/space_15x</item>
   </style>
 
 </resources>

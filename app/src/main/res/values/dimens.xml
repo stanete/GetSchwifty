@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Text size -->
+  <dimen name="textSize_small">13sp</dimen>
+  <dimen name="textSize_medium">16sp</dimen>
+  <dimen name="textSize_large">20sp</dimen>
+  <dimen name="textSize_extraLarge">30sp</dimen>
+
+  <!-- Spacing, x = 8 -->
+  <dimen name="space_x">8dp</dimen>
+  <dimen name="space_2x">16dp</dimen>
+  <dimen name="space_3x">24dp</dimen>
+  <dimen name="space_4x">32dp</dimen>
+  <dimen name="space_6x">48dp</dimen>
+  <dimen name="space_7x">56dp</dimen>
+  <dimen name="space_8x">64dp</dimen>
+  <dimen name="space_10x">80dp</dimen>
+  <dimen name="space_15x">120dp</dimen>
+  <dimen name="space_24x">192dp</dimen>
+  <dimen name="space_30x">240dp</dimen>
+  <dimen name="space_37x">296dp</dimen>
+  <dimen name="space_45x">360</dimen>
+
+</resources>

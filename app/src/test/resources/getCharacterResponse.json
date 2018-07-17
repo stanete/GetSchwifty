@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "name": "Birdperson",
+  "origin": {
+    "id": 7,
+    "name": "Planet Squanch"
+  },
+  "image": "https://schwifty-media.s3.amazonaws.com/media/characters/birdperson.jpeg",
+  "date_created": "2018-06-03T22:27:32.162507Z",
+  "date_modified": "2018-06-03T22:27:32.162578Z"
+}

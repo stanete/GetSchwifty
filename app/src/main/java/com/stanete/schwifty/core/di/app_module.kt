@@ -1,6 +1,7 @@
 package com.stanete.schwifty.core.di
 
 import com.stanete.schwifty.BuildConfig
+import com.stanete.schwifty.core.coroutine.ContextProvider
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.logging.HttpLoggingInterceptor.Level
@@ -12,6 +13,8 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 val appModule: Module = applicationContext {
 
   bean { createOkHttpClient() }
+
+  bean { ContextProvider() }
 
   bean { createRetrofit(get(), BuildConfig.BASE_URL) }
 }
